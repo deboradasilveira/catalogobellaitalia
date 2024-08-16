@@ -1,0 +1,106 @@
+body {
+    background: linear-gradient(
+        to right,
+        rgba(0, 140, 140, 0.5), 
+        rgba(255, 255, 255, 0.5), 
+        rgba(255, 35, 35, 0.5)  
+    );
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+h1 {
+    color: #4CAF50; 
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.navbar {
+    background-color: #ffffff;  
+    border-bottom: 2px solid #28a745;  
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.navbar-brand {
+    color: #28a745;  
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-right: auto; /* This might cause issues with centralizing */
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1; 
+}
+
+.navbar-nav .nav-link {
+    color: #6c757d;  
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #28a745;  
+}
+
+.nav-item.active .nav-link {
+    color: #28a745;  
+    font-weight: bold;
+    border-bottom: 2px solid #28a745;  
+}
+
+.navbar-toggler {
+    border-color: #28a745;  
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%2828, 167, 69, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); 
+}
+
+.sobre-section {
+    padding: 50px 0;  
+    text-align: center;
+}
+
+.image-container {
+    display: flex;  
+    justify-content: center;  
+    margin-bottom: 30px;
+}
+
+.img-fluid {
+    max-width: 100%;  
+    height: auto;
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;  
+    text-align: left;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-indent: 2em;  
+    text-align: justify; 
+}
+
+.footer {
+    background-color: #008C8C; 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
