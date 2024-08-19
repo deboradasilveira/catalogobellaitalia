@@ -58,7 +58,7 @@ h1 {
     color: #28a745;  
     font-weight: bold;
     font-size: 1.5rem;
-    margin-right: auto; /* Pode afetar a centralização */
+    margin-right: auto;
 }
 
 .navbar-nav {
