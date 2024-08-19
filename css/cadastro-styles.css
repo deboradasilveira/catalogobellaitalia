@@ -53,7 +53,7 @@ form {
     color: #28a745;  
     font-weight: bold;
     font-size: 1.5rem;
-    margin-right: auto; /* This might cause issues with centralizing */
+    margin-right: auto; 
 }
 
 .navbar-nav {
