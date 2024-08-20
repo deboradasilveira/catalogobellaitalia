@@ -106,3 +106,140 @@ p {
     padding: 20px 0;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .img-fluid {
+        height: 180px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .img-fluid {
+        height: 150px;
+    }
+
+    .footer {
+        font-size: 14px;
+        padding: 15px 0;
+    }
+}
+@media (min-width: 1024px) and (prefers-reduced-motion: no-preference) {
+    body {
+        font-size: 18px;
+        color: #000; 
+        background-color: #FFF; 
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: bold;
+        color: #000; 
+    }
+
+    a {
+        color: #0000EE; 
+        text-decoration: underline; 
+    }
+
+    .card {
+        margin-bottom: 20px;
+        padding: 20px;
+        border: 2px solid #000; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn {
+        padding: 15px 30px;
+        font-size: 18px;
+        background-color: #4CAF50; 
+        color: #FFF; 
+        border: 2px solid #4CAF50;
+    }
+
+    .navbar-brand {
+        font-size: 24px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    body {
+        font-size: 20px; 
+        line-height: 1.8;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: bold;
+        color: #000;
+    }
+
+    a {
+        color: #0000EE;
+        text-decoration: underline;
+    }
+
+    .card {
+        margin-bottom: 20px;
+        padding: 20px;
+        border: 2px solid #000;
+    }
+
+    .btn {
+        padding: 15px 30px;
+        font-size: 20px; 
+        background-color: #4CAF50;
+        color: #FFF;
+    }
+
+    .navbar-brand {
+        font-size: 24px;
+    }
+}
+
+@media screen and (forced-colors: active) {
+    body {
+        color: WindowText;
+        background-color: Window;
+    }
+
+    a {
+        color: LinkText;
+    }
+
+    .card, .btn {
+        border-color: ButtonText;
+    }
+}
